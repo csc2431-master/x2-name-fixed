@@ -36,12 +36,10 @@ const Name& Name::operator=(const Name rhs) {
 
         swap = _first;
         _first = copy._first;
-        copy.
-        _first = swap;
+        copy._first = swap;
         swap = _last;
         _last = copy._last;
-        copy.
-        _last = swap;
+        copy._last = swap;
     }
     return *this;
 }
